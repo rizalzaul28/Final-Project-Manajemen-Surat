@@ -21,6 +21,7 @@ public class PopUpSuratKeluar extends javax.swing.JFrame {
     public PopUpSuratKeluar() {
         initComponents();
         
+        
         jTextField1.putClientProperty(FlatClientProperties.PLACEHOLDER_TEXT, "Masukan Nomor");
         jTextField2.putClientProperty(FlatClientProperties.PLACEHOLDER_TEXT, "Berikan Perihal ");
         jTextField4.putClientProperty(FlatClientProperties.PLACEHOLDER_TEXT, "Masukan Tujuan Anda");
@@ -156,7 +157,7 @@ public class PopUpSuratKeluar extends javax.swing.JFrame {
                             .addGroup(pn_DasarLayout.createSequentialGroup()
                                 .addGap(35, 35, 35)
                                 .addComponent(jLabel6)))
-                        .addContainerGap(83, Short.MAX_VALUE))
+                        .addContainerGap(73, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pn_DasarLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton4)
