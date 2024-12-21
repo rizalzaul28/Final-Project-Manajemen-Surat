@@ -13,9 +13,9 @@ import java.sql.SQLException;
 public class Koneksi {
     private Connection KonekstorSQL;
     private String host = "localhost";
-    private String db = "manajemensurat";
+    private String db = "newmanajemensurat";
     private String user = "root";
-    private String password = "";
+    private String password = "123456";
     private String port = "3306";
     private String url = "jdbc:mysql://" + host + ":" + port + "/" + db;
 
