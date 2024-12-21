@@ -11,6 +11,7 @@ import java.sql.SQLException;
  * @author NITRO_VIKI
  */
 public class Koneksi {
+    
     private Connection KonekstorSQL;
     private String host = "localhost";
     private String db = "manajemensurat";
